@@ -1,0 +1,15 @@
+{{!-- messages de flash --}}
+
+{{#if success_msg}}
+<div class="alert alert-dismissible alert-success mt-4">
+    <h3 class="text-center">{{success_msg}}</h3>
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+</div>
+{{/if}}
+
+{{#if error_msg}}
+<div class="alert alert-dismissible alert-danger mt-4">
+    <h3 class="text-center">{{error_msg}}</h3>
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+</div>
+{{/if}}
